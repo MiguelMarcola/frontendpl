@@ -1,4 +1,4 @@
-import { Container, Head, Logo, Lupa, SearchContainer, SearchInput } from './styles'
+import { Container, Head, Logo, Button, Lupa, SearchContainer, SearchInput } from './styles'
 
 import logo from '../../assets/logo-teste.svg'
 import lupa from '../../assets/lupa.svg'
@@ -14,7 +14,9 @@ export function Header() {
             <Container>
                 <SearchContainer>
                     <SearchInput type="text" placeholder="Digite aqui sua busca..." />
-                    <Lupa src={lupa} alt="lupa" onClick={() => {}}/>
+                    <Button onClick={() => {}}>
+                        <Lupa src={lupa} alt="lupa"/>
+                    </Button>
                 </SearchContainer>
             </Container>
         </>

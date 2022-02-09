@@ -2,9 +2,10 @@ import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
     :root{
-        --cor-bg: #F9F0FC;
+        --cor-bg: #F6F4F6;
         --cor-stroke: #EDD8F3;
         --cor-branco: #FFFFFF;
+        --cor-cinza: #F6F4F6;
         --cor-aviso: #FFC400;
         --cor-erro: #DB2525;
         --cor-sucesso: #51C421;
@@ -46,6 +47,10 @@ export const GlobalStyle = createGlobalStyle`
 
     button {
         cursor: pointer;
+    }
+
+    .main{
+        width: 100%;
     }
 
 `

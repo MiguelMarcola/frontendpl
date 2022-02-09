@@ -18,7 +18,7 @@ export const Logo = styled.img`
 export const Container = styled.div`
     width: 100%;
     height: 261px;
-    background: transparent url(${bgSearch}) 0% 0% no-repeat padding-box;
+    background: transparent url(${bgSearch}) no-repeat padding-box;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +32,7 @@ export const SearchContainer = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-top: 60px;
 `;
 
 export const SearchInput = styled.input`
@@ -45,10 +46,15 @@ export const SearchInput = styled.input`
     padding-left: 2%;
 `;
 
+export const Button = styled.button`
+    background: none;
+    border: none;
+    padding-right: 2%;
+`;
+
 export const Lupa = styled.img`
     width: 49px;
     height: 49px;
-    padding-right: 2%;
     cursor: pointer;
 `;
 
